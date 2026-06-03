@@ -79,8 +79,9 @@ export default function App() {
           />
           <button
             onClick={copyPassword}
-            className="bg-green-500 px-3 rounded"
+           className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-4 py-2 rounded-lg hover:bg-white/30 transition"
           >
+            
             Copy
           </button>
         </div>
@@ -135,9 +136,7 @@ export default function App() {
           </ul>
         </div>
       </div>
-      <div className="text-2xl font-bold text-blue-500">
-  Hello Tailwind
-</div>
+      
     </div>
   )
 }
